@@ -38,7 +38,7 @@
     border-color: #5f0e0e;
 }
 #footer {
-    height: 200px;
+    height: 450px;
     padding: 2rem 0 2rem 0;
     background: #000;
     text-align: center;
@@ -222,8 +222,20 @@
         text-decoration: none;
         text-align: center;
         justify-content: center;
-        
-    
+     
+    }
+
+    #cadastre-se {
+        color: whitesmoke;
+        margin-right: 42%;
+        bottom: 25px;
+    }
+    @media screen and (max-width: 736px){
+        #cadastre-se {
+            color: whitesmoke;
+            margin-right: 31%;
+            bottom: 25px;
+        }
     }
     
     
