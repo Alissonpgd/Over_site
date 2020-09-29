@@ -237,6 +237,14 @@
             bottom: 25px;
         }
     }
+
+    
+    }
+    .dropdown-item{
+        color:white !important;
+        font-size: 22px;
+        font-weight: 500;
+    }
     
     
 
