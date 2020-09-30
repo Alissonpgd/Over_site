@@ -59,45 +59,51 @@
                     <!-- <h2 class="small d-block text-center">Dados Pessoais</h2> -->
                 </div>
                 
-                <form action="" >
-                    <div class="input-group mt-2">
-                        <input type="text" class="form-control" placeholder='Nome Completo'>
-                    </div>
-                    <div class="input-group mt-2">
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                    </div>
-                    <div class="input-group mt-2">
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
-                    </div>
-                    <div class="input-group mt-2">
-                        <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos ... , nº 0">                        
-                    </div>
-                    <div class="input-group mt-2">
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Complemento ex. Apartamento, hotel, casa, etc.">
-                        
-                    </div>
-                    <div class="input-group mt-2">
-                        <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
-                        <select id="inputEstado" class="form-control">
-                            <option selected>Estado...</option>
-                            <option>...</option>
-                        </select>
-                        <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
-                    </div>
-
-                    <div class="justify-content-center">
-                        <label>Foto de DOC</label>
-                        <input id="input" class="border" type="file">
-                    </div>
-                    <div>
-                        <div >
-                          <button class="btna" type="submit">Entrar</button>
-                        </div>
-                    </div>
-
+                <fieldset>
+                    <legend>
+                        <h2>Dados Pessoais</h2>
+                    </legend>
+                        <form action="" >
+                            <div class="input-group mt-2">
+                                <input type="text" class="form-control" placeholder='Nome Completo'>
+                            </div>
+                            <div class="input-group mt-2">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+                            <div class="input-group mt-2">
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+                            </div>
+                            <div class="input-group mt-2">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos ... , nº 0">                        
+                            </div>
+                            <div class="input-group mt-2">
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Complemento ex. Apartamento, hotel, casa, etc.">
+                                
+                            </div>
+                            <div class="input-group mt-2">                                
+                                <select  name="uf" class="form-control">
+                                    <option selected>Estado...</option>
+                                    <option>...</option>
+                                </select>
+                                <select  name="City" disabled class="form-control">
+                                    <option selected>Cidade...</option>
+                                    <option>...</option>
+                                </select>
+                                <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+                            </div>
+        
+                            <div class="justify-content-center">
+                                <label>Foto de DOC</label>
+                                <input id="input" class="border" type="file">
+                            </div>
+                            <div>
+                                <div >
+                                  <button class="btna" type="submit">Entrar</button>
+                                </div>
+                            </div>
+                        </form >
                     
-                  
-                </form >
+                </fieldset>
             </div>
         </div>
     </div>
